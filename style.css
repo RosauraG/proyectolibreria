@@ -45,7 +45,7 @@ nav a{
 }
 
 nav a:hover{
-    color: #c78c19;
+    color: #732634;
     text-decoration: underline;
 }
 
@@ -55,13 +55,18 @@ nav a:hover{
     padding: 50px;
 }
 
+.libros{
+    height: 206px;
+    width: 136px;
+}
+
 
 .productos li{
     display: inline-block;
     text-align: center;
     width: 30%;
     vertical-align: top;
-    margin: 0 1.5%;
+    margin: 1.5% 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 2px solid #000000;
@@ -69,11 +74,11 @@ nav a:hover{
 }
 
 .productos li:hover{
-    border-color:#c78c19;
+    border-color:#8C2641;
 }
 
 .productos li:active{
-    border-color:#088c19;
+    border-color:#732634;
 }
 
 .productos h2{
@@ -103,7 +108,7 @@ footer{
 
 .copyright{
     color:#FFFFFF;
-    font-size: 13px;
+    font-size: 15px;
     margin:20px;
 }
 
@@ -134,7 +139,7 @@ form label, form legend{
     font-size: 18px;
     font-weight: bold;
     color:white;
-    background: orange;
+    background: #8C2641;
     border:none;
     border-radius: 5px;
     transition: 1s all;
@@ -142,7 +147,7 @@ form label, form legend{
 }
 
 .enviar:hover{
-    background: darkorange;
+    background: #FAACC4;
     transform: scale(1.2);
 }
 
@@ -151,7 +156,7 @@ table{
 }
 
 thead{
-    background: #555555;
+    background:#732634;
     color:white;
     font-weight: bold;
 }
